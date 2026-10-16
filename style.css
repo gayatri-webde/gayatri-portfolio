@@ -207,4 +207,18 @@ img {
     color: #2563eb;
 }
 
+/* Align navigation with the portfolio card */
+.navbar {
+    max-width: 800px;
+    width: calc(100% - 40px);
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.nav-links {
+    align-items: center;
+}
+
+
 
