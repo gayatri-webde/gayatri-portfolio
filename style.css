@@ -208,13 +208,24 @@ img {
 }
 
 /* Align navigation with the portfolio card */
+
 .navbar {
     max-width: 800px;
     width: calc(100% - 40px);
     margin: 20px auto;
     box-sizing: border-box;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 18px 28px;
+    background: #ffffff;
+    border: 1px solid #dbeafe;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.08);
 }
+
 
 .nav-links {
     align-items: center;
