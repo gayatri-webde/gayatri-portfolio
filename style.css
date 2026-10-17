@@ -155,22 +155,23 @@ img {
   color: #1e3a8a;
 }
 
+
 .contact-btn {
     display: inline-block;
-    background: #2563eb;
-    color: #ffffff;
-    padding: 12px 24px;
+    background-color: #eaf6ff;
+    color: #2463a6;
+    padding: 8px 16px;
+    border: 1px solid #b8dafa;
     border-radius: 8px;
     text-decoration: none;
+    font-size: 14px;
     font-weight: 600;
-    transition: background 0.3s ease;
+    margin-top: 8px;
 }
 
 .contact-btn:hover {
-    background: #1e3a8a;
-    color: #ffffff;
+    background-color: #d6ebff;
 }
-
 /* Professional Navigation Bar */
 .navbar {
     display: flex;
